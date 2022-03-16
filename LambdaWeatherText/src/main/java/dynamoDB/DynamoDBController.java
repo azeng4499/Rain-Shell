@@ -34,17 +34,6 @@ public class DynamoDBController {
 			e.printStackTrace();
 		}
 	}
-
-	public static Client loadClient() {
-		Client client = new Client();
-		client.setLocation("College Park");
-		client.setLastName("Zeng");
-
-		Client result = mapper.load(client);
-
-		return result;
-
-	}
 	
 	public static List<Client> queryForLocation(String location) {
 		Client client = new Client();

@@ -9,6 +9,8 @@ public class Texter {
 	public static final String ACCOUNT_SID = "";
 	public static final String AUTH_TOKEN = "";
 
+	
+	//Sends the text message to the intended recipient
 	public static boolean text(String phoneNumber, String text) {
 
 		try {
