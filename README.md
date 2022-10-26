@@ -1,4 +1,4 @@
-# Weather-Service-Alpha
+# Rain-Shell
 This is a weather service that sends you a text every morning with a brief summary of the weather as well as a suggestion on what to wear for the day. 
 Weather data is first called for a specific location via the OpenWeatherMap API and parsed into data segments.
 Then, the raw data goes through a series of filters each responsible for a different aspect of the weather (i.e high/low temperature, wind, rain, etc).
